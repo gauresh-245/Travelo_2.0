@@ -1,0 +1,73 @@
+.featured-section {
+  padding: 120px 10% 80px;
+  background: #000814; /* Deep dark blue/black background */
+  color: white;
+}
+
+.f-title {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.f-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  perspective: 1200px; /* Enables the 3D effect for children */
+}
+
+.f-card {
+  width: 320px;
+  height: 450px;
+  cursor: pointer;
+  transition: transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+}
+
+/* The 3D Tilt Effect */
+.f-card:hover {
+  transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+}
+
+.f-card-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.f-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  transform: translateZ(50px); /* Makes text "pop" forward in 3D space */
+}
+
+.f-overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.f-overlay p {
+  color: #ff6b00;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Subtle glow effect on hover */
+.f-card:hover .f-card-inner {
+  border: 1px solid rgba(255, 107, 0, 0.5);
+  box-shadow: 0 0 30px rgba(255, 107, 0, 0.2);
+}

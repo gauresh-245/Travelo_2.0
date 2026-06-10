@@ -1,0 +1,662 @@
+[
+  {
+    "destination": "Goa",
+    "nearestHub": "Madgaon (MAO) / Dabolim (GOI)",
+    "flow": "Train/Flight to Madgaon/Dabolim -> Prepaid Taxi to North/South Goa",
+    "trains": [
+      {
+        "name": "Mandovi Express",
+        "number": "10103",
+        "from": "Mumbai",
+        "to": "Madgaon",
+        "class": "2A, 3A, SL",
+        "price": 1200,
+        "route": "Konkan Railway"
+      },
+      {
+        "name": "Goa Express",
+        "number": "12780",
+        "from": "Delhi",
+        "to": "Vasco Da Gama",
+        "class": "1A, 2A, 3A",
+        "price": 2800,
+        "route": "Via Agra, Pune"
+      },
+      {
+        "name": "Konkan Kanya",
+        "number": "20111",
+        "from": "Mumbai",
+        "to": "Madgaon",
+        "class": "3A, SL",
+        "price": 950,
+        "route": "Overnight Konkan"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-213",
+        "from": "Mumbai",
+        "to": "GOI",
+        "price": 4500,
+        "duration": "1h 10m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-840",
+        "from": "Delhi",
+        "to": "GOX",
+        "price": 7200,
+        "duration": "2h 30m"
+      },
+      {
+        "airline": "Vistara",
+        "flightNo": "UK-821",
+        "from": "Bangalore",
+        "to": "GOI",
+        "price": 3800,
+        "duration": "1h 15m"
+      }
+    ]
+  },
+  {
+    "destination": "Jammu & Kashmir",
+    "nearestHub": "Jammu Tawi (JAT) / Srinagar Airport (SXR)",
+    "flow": "Train to Jammu then 6-hour taxi to Srinagar OR Direct Flight to Srinagar",
+    "trains": [
+      {
+        "name": "Jhelum Express",
+        "number": "11077",
+        "from": "Pune",
+        "to": "Jammu Tawi",
+        "class": "2A, 3A, SL",
+        "price": 2400,
+        "route": "Via Delhi"
+      },
+      {
+        "name": "Jammu Rajdhani",
+        "number": "12425",
+        "from": "Delhi",
+        "to": "Jammu Tawi",
+        "class": "1A, 2A, 3A",
+        "price": 3500,
+        "route": "Fastest Route"
+      },
+      {
+        "name": "Swaraj Express",
+        "number": "12471",
+        "from": "Mumbai",
+        "to": "Jammu Tawi",
+        "class": "3A, SL",
+        "price": 2100,
+        "route": "Via Vadodara"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-532",
+        "from": "Delhi",
+        "to": "SXR",
+        "price": 5500,
+        "duration": "1h 25m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-423",
+        "from": "Mumbai",
+        "to": "SXR",
+        "price": 8500,
+        "duration": "2h 50m"
+      },
+      {
+        "airline": "SpiceJet",
+        "flightNo": "SG-123",
+        "from": "Chandigarh",
+        "to": "SXR",
+        "price": 3200,
+        "duration": "0h 55m"
+      }
+    ]
+  },
+  {
+    "destination": "Himachal Pradesh",
+    "nearestHub": "Pathankot (Railway) / Chandigarh (Airport)",
+    "flow": "Train to Pathankot/Kalka -> Volvo Bus or Private Taxi to Manali/Shimla",
+    "trains": [
+      {
+        "name": "Kalka Shatabdi",
+        "number": "12005",
+        "from": "Delhi",
+        "to": "Kalka",
+        "class": "EC, CC",
+        "price": 1100,
+        "route": "Express Route"
+      },
+      {
+        "name": "Himsagar Exp",
+        "number": "16317",
+        "from": "Kanyakumari",
+        "to": "Chakki Bank",
+        "class": "3A, SL",
+        "price": 3800,
+        "route": "Long Haul"
+      },
+      {
+        "name": "Malwa Express",
+        "number": "12919",
+        "from": "Indore",
+        "to": "Pathankot",
+        "class": "2A, 3A, SL",
+        "price": 1900,
+        "route": "Via Bhopal"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-242",
+        "from": "Mumbai",
+        "to": "IXC",
+        "price": 5800,
+        "duration": "2h 15m"
+      },
+      {
+        "airline": "Alliance Air",
+        "flightNo": "9I-805",
+        "from": "Delhi",
+        "to": "DHM",
+        "price": 6200,
+        "duration": "1h 20m"
+      },
+      {
+        "airline": "Vistara",
+        "flightNo": "UK-707",
+        "from": "Bangalore",
+        "to": "IXC",
+        "price": 7500,
+        "duration": "2h 55m"
+      }
+    ]
+  },
+  {
+    "destination": "Munnar",
+    "nearestHub": "Aluva (Railway) / Kochi (Airport)",
+    "flow": "Train/Flight to Kochi -> 4-hour scenic drive via taxi or KSRTC Bus",
+    "trains": [
+      {
+        "name": "Kerala Express",
+        "number": "12626",
+        "from": "Delhi",
+        "to": "Aluva",
+        "class": "2A, 3A",
+        "price": 3200,
+        "route": "Central India Route"
+      },
+      {
+        "name": "Kanyakumari Exp",
+        "number": "16381",
+        "from": "Mumbai",
+        "to": "Aluva",
+        "class": "3A, SL",
+        "price": 1800,
+        "route": "Western Ghats"
+      },
+      {
+        "name": "Sabari Express",
+        "number": "17230",
+        "from": "Hyderabad",
+        "to": "Aluva",
+        "class": "3A, SL",
+        "price": 1500,
+        "route": "Via Guntur"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "Akasa Air",
+        "flightNo": "QP-134",
+        "from": "Mumbai",
+        "to": "COK",
+        "price": 5100,
+        "duration": "2h 00m"
+      },
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-542",
+        "from": "Bangalore",
+        "to": "COK",
+        "price": 2200,
+        "duration": "1h 05m"
+      },
+      {
+        "airline": "SpiceJet",
+        "flightNo": "SG-281",
+        "from": "Chennai",
+        "to": "COK",
+        "price": 3100,
+        "duration": "1h 10m"
+      }
+    ]
+  },
+  {
+    "destination": "Kerala",
+    "nearestHub": "Kochi (COK) / Trivandrum (TVC)",
+    "flow": "Direct Flight to Kochi/Trivandrum -> Backwater Ferry or Local Taxi",
+    "trains": [
+      {
+        "name": "Duronto Exp",
+        "number": "12223",
+        "from": "Mumbai",
+        "to": "Ernakulam",
+        "class": "1A, 2A, 3A",
+        "price": 4200,
+        "route": "Non-stop Konkan"
+      },
+      {
+        "name": "Netravati Exp",
+        "number": "16345",
+        "from": "Mumbai",
+        "to": "Thiruvananthapuram",
+        "class": "2A, 3A, SL",
+        "price": 2200,
+        "route": "Coastal Route"
+      },
+      {
+        "name": "Grand Trunk",
+        "number": "12616",
+        "from": "Delhi",
+        "to": "Chennai (Connect to Kerala)",
+        "class": "2A, 3A",
+        "price": 3100,
+        "route": "Central India"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "Air India Express",
+        "flightNo": "IX-342",
+        "from": "Dubai",
+        "to": "COK",
+        "price": 12000,
+        "duration": "4h 10m"
+      },
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-102",
+        "from": "Delhi",
+        "to": "TVC",
+        "price": 7800,
+        "duration": "3h 15m"
+      },
+      {
+        "airline": "Vistara",
+        "flightNo": "UK-551",
+        "from": "Mumbai",
+        "to": "COK",
+        "price": 5500,
+        "duration": "1h 50m"
+      }
+    ]
+  },
+  {
+    "destination": "Rajasthan",
+    "nearestHub": "Jaipur (JP) / Jodhpur (JU)",
+    "flow": "Train/Flight to Jaipur -> Intercity bus or taxi to Udaipur/Jaisalmer",
+    "trains": [
+      {
+        "name": "Ajmer Shatabdi",
+        "number": "12015",
+        "from": "Delhi",
+        "to": "Jaipur",
+        "class": "EC, CC",
+        "price": 1050,
+        "route": "Daily Express"
+      },
+      {
+        "name": "Muryadhwaj Exp",
+        "number": "12492",
+        "from": "Jammu",
+        "to": "Jodhpur",
+        "class": "3A, SL",
+        "price": 1850,
+        "route": "Desert Route"
+      },
+      {
+        "name": "Jaipur Superfast",
+        "number": "12955",
+        "from": "Mumbai",
+        "to": "Jaipur",
+        "class": "2A, 3A, SL",
+        "price": 2100,
+        "route": "Via Surat"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-612",
+        "from": "Mumbai",
+        "to": "JAI",
+        "price": 4100,
+        "duration": "1h 45m"
+      },
+      {
+        "airline": "SpiceJet",
+        "flightNo": "SG-342",
+        "from": "Delhi",
+        "to": "JHB",
+        "price": 3200,
+        "duration": "1h 10m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-643",
+        "from": "Ahmedabad",
+        "to": "UDR",
+        "price": 2900,
+        "duration": "0h 55m"
+      }
+    ]
+  },
+  {
+    "destination": "Delhi",
+    "nearestHub": "New Delhi (NDLS) / IGI Airport (DEL)",
+    "flow": "Direct connection via Metro or Airport Express to any part of the city",
+    "trains": [
+      {
+        "name": "Mumbai Rajdhani",
+        "number": "12951",
+        "from": "Mumbai",
+        "to": "New Delhi",
+        "class": "1A, 2A, 3A",
+        "price": 4100,
+        "route": "Fastest via Kota"
+      },
+      {
+        "name": "August Kranti",
+        "number": "12953",
+        "from": "Mumbai",
+        "to": "Nizamuddin",
+        "class": "1A, 2A, 3A",
+        "price": 3800,
+        "route": "Premium Route"
+      },
+      {
+        "name": "Howrah Rajdhani",
+        "number": "12301",
+        "from": "Kolkata",
+        "to": "New Delhi",
+        "class": "1A, 2A, 3A",
+        "price": 3900,
+        "route": "Via Gaya"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-5001",
+        "from": "Bangalore",
+        "to": "DEL",
+        "price": 5200,
+        "duration": "2h 45m"
+      },
+      {
+        "airline": "Vistara",
+        "flightNo": "UK-944",
+        "from": "Mumbai",
+        "to": "DEL",
+        "price": 6100,
+        "duration": "2h 10m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-803",
+        "from": "Chennai",
+        "to": "DEL",
+        "price": 5800,
+        "duration": "2h 55m"
+      }
+    ]
+  },
+  {
+    "destination": "Agra",
+    "nearestHub": "Agra Cantt (AGC) / Delhi Airport (DEL)",
+    "flow": "Train to Agra Cantt -> Rickshaw to Taj Mahal OR Taxi from Delhi (3 hours)",
+    "trains": [
+      {
+        "name": "Gatimaan Express",
+        "number": "12050",
+        "from": "Delhi",
+        "to": "Agra Cantt",
+        "class": "EC, CC",
+        "price": 1500,
+        "route": "Semi-High Speed"
+      },
+      {
+        "name": "Taj Express",
+        "number": "12280",
+        "from": "Delhi",
+        "to": "Agra Cantt",
+        "class": "CC, 2S",
+        "price": 450,
+        "route": "Daily Tourist Train"
+      },
+      {
+        "name": "Punjab Mail",
+        "number": "12138",
+        "from": "Mumbai",
+        "to": "Agra",
+        "class": "2A, 3A, SL",
+        "price": 1800,
+        "route": "Central Route"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-7201",
+        "from": "Lucknow",
+        "to": "AGR",
+        "price": 2500,
+        "duration": "0h 45m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-401",
+        "from": "Delhi",
+        "to": "AGR",
+        "price": 3100,
+        "duration": "0h 50m"
+      },
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-205",
+        "from": "Mumbai",
+        "to": "AGR",
+        "price": 5200,
+        "duration": "2h 05m"
+      }
+    ]
+  },
+  {
+    "destination": "Ooty",
+    "nearestHub": "Mettupalayam (MTP) / Coimbatore (CJB)",
+    "flow": "Train to Coimbatore -> Taxi or Nilgiri Toy Train from Mettupalayam to Ooty",
+    "trains": [
+      {
+        "name": "Cheran Express",
+        "number": "12673",
+        "from": "Chennai",
+        "to": "Coimbatore",
+        "class": "2A, 3A, SL",
+        "price": 1400,
+        "route": "Salem-Erode"
+      },
+      {
+        "name": "Nilgiri Express",
+        "number": "12671",
+        "from": "Chennai",
+        "to": "Mettupalayam",
+        "class": "2A, 3A, SL",
+        "price": 1550,
+        "route": "Overnight"
+      },
+      {
+        "name": "Kongu Express",
+        "number": "12648",
+        "from": "Delhi",
+        "to": "Coimbatore",
+        "class": "3A, SL",
+        "price": 2600,
+        "route": "Via Nagpur"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-654",
+        "from": "Bangalore",
+        "to": "CJB",
+        "price": 2800,
+        "duration": "0h 55m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-691",
+        "from": "Mumbai",
+        "to": "CJB",
+        "price": 4800,
+        "duration": "1h 50m"
+      },
+      {
+        "airline": "SpiceJet",
+        "flightNo": "SG-101",
+        "from": "Chennai",
+        "to": "CJB",
+        "price": 2400,
+        "duration": "1h 00m"
+      }
+    ]
+  },
+  {
+    "destination": "Darjeeling",
+    "nearestHub": "New Jalpaiguri (NJP) / Bagdogra (IXB)",
+    "flow": "Train to NJP / Flight to Bagdogra -> 3-hour shared taxi or private car climb",
+    "trains": [
+      {
+        "name": "Darjeeling Mail",
+        "number": "12343",
+        "from": "Kolkata",
+        "to": "NJP",
+        "class": "1A, 2A, 3A",
+        "price": 1900,
+        "route": "Overnight Heritage"
+      },
+      {
+        "name": "Dibrugarh Rajdhani",
+        "number": "12424",
+        "from": "Delhi",
+        "to": "NJP",
+        "class": "1A, 2A, 3A",
+        "price": 3400,
+        "route": "Via Patna"
+      },
+      {
+        "name": "North East Exp",
+        "number": "12506",
+        "from": "Delhi",
+        "to": "NJP",
+        "class": "3A, SL",
+        "price": 1600,
+        "route": "Via Barauni"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "SpiceJet",
+        "flightNo": "SG-841",
+        "from": "Kolkata",
+        "to": "IXB",
+        "price": 3200,
+        "duration": "1h 05m"
+      },
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-958",
+        "from": "Delhi",
+        "to": "IXB",
+        "price": 6500,
+        "duration": "2h 15m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-721",
+        "from": "Guwahati",
+        "to": "IXB",
+        "price": 2800,
+        "duration": "0h 50m"
+      }
+    ]
+  },
+  {
+    "destination": "Kanyakumari",
+    "nearestHub": "Kanyakumari (CAPE) / Trivandrum Airport (TRV)",
+    "flow": "Direct train to Kanyakumari OR Flight to Trivandrum + 3-hour taxi drive",
+    "trains": [
+      {
+        "name": "Kanyakumari Exp",
+        "number": "12633",
+        "from": "Chennai",
+        "to": "CAPE",
+        "class": "2A, 3A, SL",
+        "price": 1600,
+        "route": "Via Madurai"
+      },
+      {
+        "name": "Himsagar Exp",
+        "number": "16318",
+        "from": "Delhi",
+        "to": "CAPE",
+        "class": "3A, SL",
+        "price": 3200,
+        "route": "Longest Indian Route"
+      },
+      {
+        "name": "Island Express",
+        "number": "16526",
+        "from": "Bangalore",
+        "to": "CAPE",
+        "class": "3A, SL",
+        "price": 1400,
+        "route": "Via Kerala"
+      }
+    ],
+    "flights": [
+      {
+        "airline": "IndiGo",
+        "flightNo": "6E-241",
+        "from": "Chennai",
+        "to": "TRV",
+        "price": 3800,
+        "duration": "1h 15m"
+      },
+      {
+        "airline": "Air India",
+        "flightNo": "AI-501",
+        "from": "Delhi",
+        "to": "TRV",
+        "price": 8200,
+        "duration": "3h 25m"
+      },
+      {
+        "airline": "Vistara",
+        "flightNo": "UK-805",
+        "from": "Mumbai",
+        "to": "TRV",
+        "price": 5400,
+        "duration": "2h 10m"
+      }
+    ]
+  }
+]
