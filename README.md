@@ -13,6 +13,9 @@ Travelo 2.0 is a full-stack travel planning and management platform designed to 
 * JSON-based travel data management
 * Easy navigation and modern UI
 
+<img width="936" height="457" alt="image" src="https://github.com/user-attachments/assets/b3460fc2-34ed-4a20-81b1-c2fc3aaa5f45" />
+
+
 ---
 
 ## 🛠️ Tech Stack
